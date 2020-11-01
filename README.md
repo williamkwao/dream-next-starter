@@ -49,7 +49,9 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
 ### Environment variables: 
-You can put environment variables in a ```.env``` file to map your firebase properties.
+You can put environment variables in a ```.env``` file to map your firebase properties. 
+* [Documentation web app env variables from firebase](https://firebase.google.com/docs/web/setup#config-object)
+* [Documentation to getting server firebase env variables](https://firebase.google.com/docs/admin/setup#initialize-sdk) 
 ```
 # Public env variables
 NEXT_PUBLIC_FIREBASE_API_KEY=
