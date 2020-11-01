@@ -1,3 +1,27 @@
+## Goal
+Build an app starter that will make it easy to rapidly prototype and makes you focus on writing product code instead of spending a lot of time on things that do not have mach time to do with your product.
+
+## Backstory
+After working on a lot of side projects, I got tiredof making decisions and writing code that had nothing to do with the product. This is an attempt to build the ideal next js starter for building products. I've always dreamp of a starter that would help me jump straight into product code whenever i have an idea. To accomplish this I believe this starter should have the following features built in.
+* Authentication and authorization
+* Database/datasource integration
+* Easy path/command to building the web app into a ios, android and. desktop application
+* SSR for fast rendering and seo benefits
+
+### Ideal but not necessary features
+* Payment integration
+* Image processing
+* Optional design system for rapid prototyping
+
+### Auth
+Currently the auth flow is built with firebase. I chose firebase because it is a onestop shop for many product needs. Apart form auth you could potentially use it for file storage/ image processing and hosting. 
+
+### Design system
+I chose Ant design system because it is one of the few component libraries that had a simple api and  the component libraryt had considered most of the use cases a modern web application needs without excessive configuration and code.
+
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
