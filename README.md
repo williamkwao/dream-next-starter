@@ -38,6 +38,31 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
+### Environment variables: 
+You can put environment variables in a ```.env``` file to map your firebase properties.
+```
+# Public env variables
+NEXT_PUBLIC_FIREBASE_API_KEY=
+NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=
+NEXT_PUBLIC_FIREBASE_DATABASE_URL=
+NEXT_PUBLIC_FIREBASE_PROJECT_ID=
+NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET=
+NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=
+NEXT_PUBLIC_FIREBASE_APP_ID=
+NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID=
+
+#Server env variables
+FIREBASE_PROJECT_ID=
+FIREBASE_PRIVATE_KEY_ID=
+FIREBASE_PRIVATE_KEY=
+FIREBASE_CLIENT_EMAIL=
+FIREBASE_CLIENT_ID=
+FIREBASE_AUTH_URI=
+FIREBASE_AUTH__URI=
+FIREBASE_AUTH_PROVIDER_CERT_URL=
+FIREBASE_CLIENT_CERT_URL=
+```
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
