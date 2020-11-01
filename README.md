@@ -13,6 +13,16 @@ After working on a lot of side projects, I got tiredof making decisions and writ
 * Image processing
 * Optional design system for rapid prototyping
 
+### Todo:
+* <s> firebase auth flow </s>
+* Add apollo server
+* Add option for custom db authentication without firebase
+* Add capacitor for building mobile apps
+* Payment integration
+* Figure out a simple api for processing and uploading media
+
+
+
 ### Auth
 Currently the auth flow is built with [firebase](https://firebase.google.com/). I chose firebase because it is a onestop shop for many product needs. Apart form auth you could potentially use it for file storage/ image processing and hosting. 
 
