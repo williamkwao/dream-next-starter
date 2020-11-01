@@ -14,10 +14,10 @@ After working on a lot of side projects, I got tiredof making decisions and writ
 * Optional design system for rapid prototyping
 
 ### Auth
-Currently the auth flow is built with firebase. I chose firebase because it is a onestop shop for many product needs. Apart form auth you could potentially use it for file storage/ image processing and hosting. 
+Currently the auth flow is built with [firebase](https://firebase.google.com/). I chose firebase because it is a onestop shop for many product needs. Apart form auth you could potentially use it for file storage/ image processing and hosting. 
 
 ### Design system
-I chose Ant design system because it is one of the few component libraries that had a simple api and  the component libraryt had considered most of the use cases a modern web application needs without excessive configuration and code.
+I chose [Ant design](https://ant.design/) system because it is one of the few component libraries that had a simple api and  the component libraryt had considered most of the use cases a modern web application needs without excessive configuration and code.
 
 
 
