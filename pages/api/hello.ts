@@ -4,7 +4,6 @@ import { NextApiRequest, NextApiResponse } from 'next'
 
 export default async (req: NextApiRequest, res: NextApiResponse) => {
   const token = req.headers?.token.toString()
-  console.log('request mamba', req.headers)
   res.statusCode = 200
   try {
     const user = await firebaseAdmin.auth().verifyIdToken(token)
